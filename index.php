@@ -33,6 +33,18 @@
                 echo "\nO número digitado é ".exercicioUm($num1);
                 echo "\nTabauada do ".$num1. ":".exercicioDois($num1);
                 echo "\nO fatorial de " .$num1. " é: ".exercicioTres($num1);
+                echo "\nA raiz de " .$num1. " e potência de " .$num2. " é: ".exercicioQuatro($num1, $num2);
+                echo "\nO número informado é ".exercicioCinco($num1);
+                echo "\nA ordem crescente dos números é: ".exercicioSeis($num1, $num2);
+                echo "\nA média dos números é de: ".exercicioSete($num1, $num2);
+                echo "\n".exercicioOito($str);
+                echo "\nO número informado ".exercicioDez($num1);
+                echo "\n".exercicioOnze($num1, $num2);
+                echo "\n".exercicioDoze($num1, $num2, $num3);
+                echo "\n".exercicioTreze($num1);
+                echo "\n".exercicioQuatorze($num1, $num2);
+                echo "\n".exercicioQuinze($num1, $num2);
+                echo "\n".exercicioDezesseis($num1);
             ?>
         </textarea>
     <form>
